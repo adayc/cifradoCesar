@@ -1,4 +1,6 @@
-#algoritmo de Cifrado César 
+Algoritmo de cifrado César
+
+
 Este programa te permite encriptar mensajes segun el algoritmo de cifrado César
 
  
