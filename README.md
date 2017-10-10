@@ -14,6 +14,8 @@ La palabra ingresada en la caja de texto no  debe :
 1. Ser de longitud igual a 0 
 2. Contener algun número
 
+Presentamos el diagrama de flujo:
+![recursos](assets/docs/DiagramaDeFlujo.jpg)
  
  
 Procedemos a explicar el pseudocódigo
