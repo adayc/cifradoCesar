@@ -39,7 +39,7 @@ function decipher() {
      break;
      }
      else
-     {//En el caso que la palabra solo posea letras procedera a hacer el cifrado Cesar
+     {//En el caso que la palabra solo posea letras procedera a hacer el descifrado Cesar
       for (var j=0; i<word.length;j++){
 		  var asciiCode = ((word.charCodeAt(j)-65+26+26-33) % 26)+65;
 		  output += String.fromCharCode(asciiCode);
