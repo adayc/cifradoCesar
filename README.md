@@ -1,5 +1,5 @@
 #algoritmo de Cifrado César 
-Este programa de permite encriptar mensajes segun el algoritmo de cifrado César
+Este programa te permite encriptar mensajes segun el algoritmo de cifrado César
 
  
 Con este programa se puede:
@@ -9,12 +9,13 @@ Con este programa se puede:
  
 La palabra ingresada en la caja de texto no  debe :
 1. Ser de longitud igual a 0 
-2. Contener algun numero
+2. Contener algun número
 
  
  
 Procedemos a explicar el pseudocódigo
 ```[javascript]
+
 function cipher() {
   word=prompt('Ingrese la palabra a cifrar');//Se pide que ingrese la palabra a cifrar.
   var output=""; //Se declara la variable donde se acumulara la salida luego de ser cifrada
@@ -55,7 +56,7 @@ function decipher() {
      break;
      }
      else
-     {//En el caso que la palabra solo posea letras procedera a hacer el cifrado Cesar
+     {//En el caso que la palabra solo posea letras procedera a hacer el descifrado Cesar
       for (var j=0; i<word.length;j++){
 		  var asciiCode = ((word.charCodeAt(j)-65+26+26-33) % 26)+65;
 		  output += String.fromCharCode(asciiCode);
@@ -89,4 +90,3 @@ switch (selectOption) {//Empleamos el switch case para restringir a solo 2 opcio
 }
 
 
- 
