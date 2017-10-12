@@ -1,18 +1,24 @@
-Algoritmo de cifrado César
+ALGORITMO DE CIFRADO DE CESAR
 __________________________
 
 
-Este programa te permite encriptar mensajes segun el algoritmo de cifrado César
+Este programa te permite encriptar mensajes segun el algoritmo de cifrado César.
 
- 
+Elegir una opcion  para elegir si se desea:
+
 Con este programa se puede:
 * Cifrar una palabra
+	-Se puede combinar letras mayusculas con minusculas.
+        -Acepta espacios.
 * Descifrar una palabra
+	-Se puede combinar letras mayusculas con minusculas.
+        -Acepta espacios.
 
  
 La palabra ingresada en la caja de texto no  debe :
 1. Ser de longitud igual a 0 
 2. Contener algun número
+3. Poseer operadores lógicos
 
 Presentamos el diagrama de flujo:
 ![recursos](assets/docs/DiagramaDeFlujo.jpg)
