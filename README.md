@@ -20,8 +20,10 @@ La palabra ingresada en la caja de texto no  debe :
 2. Contener algun número
 3. Poseer operadores lógicos
 
-Presentamos el diagrama de flujo:
-![recursos](assets/docs/DiagramaDeFlujo.jpg)
+Presentamos los diagramas de flujo:
+![recursos](assets/docs/general.jpg)
+![recursos](assets/docs/cipher.jpg)
+![recursos](assets/docs/decipher.jpg)
  
  
 Procedemos a explicar el pseudocódigo
